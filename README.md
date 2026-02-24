@@ -15,11 +15,11 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 - Assigned customers to High, Mid, and Low-value segments
 - Calculated key metrics: total revenue
 
-Query: [1_Customer Segmentation Analysis.sql](sql_script\1_Customer_Segmentation_Analysis.sql)  
+Query: [1_Customer Segmentation Analysis.sql](sql_script/1_Customer_Segmentation_Analysis.sql)  
 
 **Visualization:**
 
-![3_customer_segementation](images\1_Customer_Segmentation_Analysis.png)
+![1_customer_segementation](images/1_Customer_Segmentation_Analysis.png)
 
 **Key Findings:**
 - High-value segment (25% of customers) drives 66% of revenue ($135.4M)
@@ -37,15 +37,15 @@ Query: [1_Customer Segmentation Analysis.sql](sql_script\1_Customer_Segmentation
 - Tracked revenue and customer count for each cohort
 - Analyzed customer retention at the cohort level
 
-Query: [2_cohort_analysis.sql](sql_script\2_cohort_analysis.sql)  
-       [2_monthly_revenue_customers_3mo.sql](sql_script\2_monthly_revenue_customers_3mo.sql) 
+Query: [2_cohort_analysis.sql](sql_script/2_cohort_analysis.sql)  
+       [2_monthly_revenue_customers_3mo.sql](sql_script/2_monthly_revenue_customers_3mo.sql) 
 
 **Visualization:**
 
-![Cohort Analysis](images\2_cohort_analysis.png)
+![2_Cohort Analysis](images/2_cohort_analysis.png)
 
 - Investigate Monthly Revenue & Customer Trends (3 Month Rolling Average)
-![2_monthly_revenue_customers_3mo](images\2_monthly_revenue_customers_3mo.png)
+![2_monthly_revenue_customers_3mo](images/2_monthly_revenue_customers_3mo.png)
 
 - **Key Findings:**
 - Revenue per customer shows an alarming
@@ -71,11 +71,11 @@ Query: [2_cohort_analysis.sql](sql_script\2_cohort_analysis.sql)
 - Analyzed last purchase patterns
 - Calculated customer-specific metrics
 
-[3_retention_anlaysis.sql](sql_script\3_retention_anlaysis.sql) 
+[3_retention_anlaysis.sql](sql_script/3_retention_anlaysis.sql) 
 
 **Visualization:**
 
-![3_customer_churn_cohort_year](images\3_customer_churn_cohort_year.png)
+![3_customer_churn_cohort_year](images/3_customer_churn_cohort_year.png)
 
 **Key Findings:**
 - Cohort churn stabilizes at ~90% after 2-3 years, indicating a predictable long-term retention pattern.
