@@ -1,0 +1,47 @@
+{
+	"folders": [
+		{
+			"path": "../../Vs_Code_Projects"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Power BI/Power_BI_Dashboards"
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"ssh": "Disabled",
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 5432,
+				"driver": "PostgreSQL",
+				"name": "postgres",
+				"database": "postgres",
+				"username": "postgres"
+			},
+			{
+				"ssh": "Disabled",
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 5432,
+				"driver": "PostgreSQL",
+				"name": "sql_course",
+				"database": "sql_course",
+				"username": "postgres"
+			},
+			{
+				"ssh": "Disabled",
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 5432,
+				"driver": "PostgreSQL",
+				"name": "Contoso_DB",
+				"database": "contoso_100k",
+				"username": "postgres"
+			}
+		]
+	}
+}
